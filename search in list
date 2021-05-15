@@ -1,0 +1,13 @@
+l=["karam","sara","ahmad","mohamad","maher","ammar","rana","hasan"]
+name=input("enter the name to search  :  ")
+i=0
+for x in l :
+    if x== name:
+        i+=1 
+    else :
+        i+=0
+if i>0 :
+    print("graduated")
+else :
+    print("notgraduted")
+    
