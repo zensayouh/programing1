@@ -1,0 +1,20 @@
+import json
+while True :
+  f=open('d:\\de.json','r')
+  d=json.load(f)
+  f.close()
+  s=input("enter you are user translator(t) or user devlepor (d) and enter exit to stop : ")
+  if s=="d":
+        we=input("enter the word in english")
+        wa=input("enter the word in arabic")
+        d[we]=wa
+        f=open('d:\\de.json','w')
+        d=json.dump(d,f)
+        f.close()
+        print (d)
+  elif s==t:
+    w=input(" enter the word to det the translate")
+  if w in d.keys ():
+         print(d[w])
+  else :
+        break
