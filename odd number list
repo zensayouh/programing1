@@ -1,0 +1,7 @@
+l1=[]
+k=100
+for i in range (100):
+    l1.append(i)
+l2=[x for x in l1 if x%2==1]
+print(l2)
+    
