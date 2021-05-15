@@ -1,0 +1,8 @@
+def c(s):
+        return len(s) 
+l=["network","math","prgraming","physics","music"]
+l2=[c(i) for i in l]
+i=max(l2)
+print(max(l2))
+k=l2.index(i)
+print(l[k])
