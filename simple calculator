@@ -1,0 +1,16 @@
+ while True:
+    i=input("enter the FIRST number to calculate: ")
+    j=input("enter the  SECOND number to clculate: ")
+    k=input("enter what do you calculate: ")
+    x=int(i)
+    y=int(j)
+    if k == '#':
+        break
+    elif k=='*':
+        print(x*y)
+    elif k=='+':
+        print(x+y)
+    elif k=='-':
+        print(x-y)
+    else :
+        print(x/y)
