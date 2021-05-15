@@ -1,0 +1,13 @@
+i=input("enter a integer numer(decimal) to find the binary : ")
+x=int(i)
+l1=[] 
+while True :
+    k=str(x%2)
+    x=x// 2
+    l1.append(k)
+    k=x
+    if x==0 :
+        break
+l1.reverse()
+print(" ".join(l1))
+    
